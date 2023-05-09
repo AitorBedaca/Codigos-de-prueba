@@ -1,5 +1,5 @@
-#define EJE_X 0
-#define EJE_Y 1
+#define EJE_X 14 //A0
+#define EJE_Y 15 //A1
 #define BOTON 2
 
 void setup() {
