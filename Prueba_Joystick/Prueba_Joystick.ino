@@ -12,11 +12,13 @@ void loop() {
   int valorX = analogRead(EJE_X),
       valorY = analogRead(EJE_Y),
       botonPulsado = digitalRead(BOTON);
-  Serial.print("\nValor X: ");
-  Serial.print(valorX);
-  Serial.print("\nValor Y: ");
-  Serial.print(valorY);
-  Serial.print("\nBotón pulsado: ");
-  Serial.print(botonPulsado);
-  delay(100);
+   //Serial.print("\nValor X: ");
+    //Serial.print(valorX);
+    Serial.print("\nValor Y: ");
+    Serial.print(valorY);
+  if (botonPulsado == 1){
+     Serial.print("\nBotón pulsado: ");
+     Serial.print(botonPulsado);
+  }
+  
 }
